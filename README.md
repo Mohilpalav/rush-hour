@@ -23,5 +23,4 @@ For example:
 
 ```
 bash run.sh print "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
-
 ```
