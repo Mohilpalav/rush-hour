@@ -1,6 +1,6 @@
 # Rush Hour 
 
-***This application was developed as a project under CS-510 (Introduction to Artificial Intelligence) course at Drexel University.***
+***This code was written as part of the coursework of the CS-510 (Introduction to Artificial Intelligence) course at Drexel University.***
 
 Rush hour board game implemented using python.
 
