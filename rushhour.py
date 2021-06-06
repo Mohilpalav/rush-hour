@@ -477,36 +477,28 @@ if __name__ == "__main__":
 
 
 '''
-Default board
-board = "  o aa|  o   |xxo   |ppp  q|     q|     q"
-
-Complete state board
-board = "  oaa |  o   |  o xx|  pppq|     q|     q"
-
-Big test board
-board = "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
-
 Test Commands
-print:
+
+print a board:
 bash run.sh print "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
 
-done:
+check if a board is in the done state:
 bash run.sh done "  oaa |  o   |  o xx|  pppq|     q|     q"
 
-next:
+get the next possible board states of a board:
 bash run.sh next "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
 
-random:
+solve the board using random walk algorithm with N=10:
 bash run.sh random "  oaa |  o   |  o xx|  pppq|     q|     q"
 
 bash run.sh random "  oaa |  o   |  oxx |  pppq|     q|     q"
 
-bfs:
+solve the board using breadth first search algorithm:
 bash run.sh bfs "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
 
 bash run.sh bfs "  oaa |  o   |  o xx|  pppq|     q|     q"
 
-astar:
+solve the board using A* algorithm:
 bash run.sh astar "  ooo |ppp q |xx  qa|rrr qa|b c dd|b c ee"
 
 bash run.sh astar "  oaa |  o   |  o xx|  pppq|     q|     q"
