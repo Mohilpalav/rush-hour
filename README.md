@@ -5,7 +5,7 @@ Rush hour board game implemented using python.
 The algorithm uses Depth First Search to find the next possible states of the board and solves it using Random Walk, Breadth First Search and A* algorithm.
 
 ### Execution steps
-The run.sh file is used to interact with the game.
+Clone the repository and use the run.sh file to interact with the game.
 
 A few sample commands are:
 
