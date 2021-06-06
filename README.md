@@ -1,5 +1,7 @@
 # Rush Hour 
 
+***This application was developed as a project under CS-510 (Introduction to Artificial Intelligence) course at Drexel University.***
+
 Rush hour board game implemented using python.
 
 The algorithm uses Depth First Search to find the next possible states of the board and solves it using Random Walk, Breadth First Search and A* algorithm.
